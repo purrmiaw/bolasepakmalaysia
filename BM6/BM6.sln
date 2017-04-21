@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{37244231-F073-4B16-AF71-B077869F78CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E3A264E0-446B-48B7-84FC-B89BD0646EEE}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "BM6", "src\BM6\BM6.xproj", "{4C6D4214-82A5-427F-9BAE-77EFB156D1B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{25717AD9-175C-4152-AC77-1226CB298D2B}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "BM6Test", "test\BM6Test\BM6Test.xproj", "{E757335A-B168-4BE5-9491-8EBDBDB051AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C6D4214-82A5-427F-9BAE-77EFB156D1B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C6D4214-82A5-427F-9BAE-77EFB156D1B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C6D4214-82A5-427F-9BAE-77EFB156D1B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C6D4214-82A5-427F-9BAE-77EFB156D1B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E757335A-B168-4BE5-9491-8EBDBDB051AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E757335A-B168-4BE5-9491-8EBDBDB051AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E757335A-B168-4BE5-9491-8EBDBDB051AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E757335A-B168-4BE5-9491-8EBDBDB051AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4C6D4214-82A5-427F-9BAE-77EFB156D1B2} = {37244231-F073-4B16-AF71-B077869F78CB}
+		{E757335A-B168-4BE5-9491-8EBDBDB051AF} = {25717AD9-175C-4152-AC77-1226CB298D2B}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://zul200289.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = src\\BM6\\BM6.xproj
+		SccProjectTopLevelParentUniqueName1 = BM6.sln
+		SccProjectName1 = src/BM6
+		SccLocalPath1 = src\\BM6
+		SccProjectUniqueName2 = test\\BM6Test\\BM6Test.xproj
+		SccProjectTopLevelParentUniqueName2 = BM6.sln
+		SccProjectName2 = test/BM6Test
+		SccLocalPath2 = test\\BM6Test
+	EndGlobalSection
+EndGlobal
